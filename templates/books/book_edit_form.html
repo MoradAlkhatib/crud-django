@@ -1,0 +1,14 @@
+<h1>Book Edit</h1>
+<form  method="post">{% csrf_token %}
+    {{ form.as_table }}
+    <input class="submit"  type="submit" value="Submit" />
+</form>
+
+
+<style>
+.submit{
+    background-color: aqua;
+    
+}
+
+</style>
